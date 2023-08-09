@@ -1,5 +1,3 @@
-
-import time
 default_number = 2
 user_number = int(input('Enter your number: '))
 matches = default_number == user_number
@@ -27,4 +25,3 @@ print("bool('empty string') returns:", bool(""))
 print("bool('non-empty strings') return:", bool("Much"))
 print("bool(empty list) returns:", bool([]))
 print("bool(non-empty lists) return:", bool([2, 4, 6]))
-time.sleep(5)
