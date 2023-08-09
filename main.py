@@ -1,6 +1,3 @@
-
-import time
-
 string_1 = 'Hello "World"!'  # Single quotation mark (SQM) in case there are DQMs in the string
 print(string_1)
 
@@ -41,5 +38,3 @@ print(f'Hello {your_name}, my name is {my_name}.')
 
 age = int(input('Enter your age: '))  # Use int() to change the data type from string to number
 print(f'You have lived for {age * 12} months.')
-
-time.sleep(5)
